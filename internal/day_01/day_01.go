@@ -8,7 +8,16 @@ import (
 	"strings"
 )
 
-func SolvePart1() {
+func Solve() {
+	header := strings.Repeat("=", 80)
+	fmt.Println(header)
+	fmt.Println("Running Aoc day 01")
+	fmt.Println(header)
+	fmt.Println("Solving part 1...")
+	solvePart1()
+	fmt.Println()
+}
+func solvePart1() {
 	position := 50
 	pPosition := &position
 	password := 0
